@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ASP.NET Registration")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5308a674615c4a9221f417d7481e961bc57cd544")]
 [assembly: System.Reflection.AssemblyProductAttribute("ASP.NET Registration")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ASP.NET Registration")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

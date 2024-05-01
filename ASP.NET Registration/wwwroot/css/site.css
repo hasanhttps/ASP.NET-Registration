@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
   font-size: 14px;
 }
@@ -15,4 +23,103 @@ html {
 
 body {
   margin-bottom: 60px;
+}
+
+p{
+    font-style: normal;
+    font-weight: normal;
+    font-family: "Poppins", sans-serif;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container{
+    display: flex;
+    width: 1366px;
+    height: 768px;
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.login-container .login{
+    gap: 24px;
+    width: 683px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+.login-container .login .header-content{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-container .login .header-content .p1{
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 21px;
+}
+
+.login-container .login .header-content .p2{
+    font-size: 16px;
+    color: #525252;
+}
+
+.login-container img{
+    width: 683px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.login-container .login .login-fields{
+    gap: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container .login .login-fields input{
+    width: 364px;
+    height: 52px;
+    border: none;
+    outline: none;
+    padding: 14px;
+    color: black;
+    font-size: 12px;
+    padding-left: 52px;
+    border-radius: 16px;
+    background-position-x: 6%;
+    background-position-y: 12px;
+    background-color: #F0EDFF;
+    background-repeat: no-repeat;
+}
+
+.login-container .login .login-fields .username-field{
+    background-image: url('../assets/images/userprofile.svg');
+}
+
+.login-container .login .login-fields .password-field{
+    background-image: url('../assets/images/lock.svg');
+}
+
+.login-container .login .loginnow-bt{
+    width: 124px;
+    height: 52px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 16px;
+    background-color: #5038ED;
 }
