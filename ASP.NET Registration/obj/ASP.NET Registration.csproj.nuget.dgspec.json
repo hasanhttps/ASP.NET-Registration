@@ -1,17 +1,104 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hasan\\source\\repos\\ASP.NET Registration\\ASP.NET Registration\\ASP.NET Registration.csproj": {}
+    "C:\\Users\\hasan\\source\\repos\\ASP.NET-Registration\\ASP.NET Registration\\ASP.NET Registration.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hasan\\source\\repos\\ASP.NET Registration\\ASP.NET Registration\\ASP.NET Registration.csproj": {
+    "C:\\Users\\hasan\\source\\repos\\ASP.NET-Registration\\ASP.NET Registration\\ASP.NET Registration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hasan\\source\\repos\\ASP.NET Registration\\ASP.NET Registration\\ASP.NET Registration.csproj",
+        "projectUniqueName": "C:\\Users\\hasan\\source\\repos\\ASP.NET-Registration\\ASP.NET Registration\\ASP.NET Registration.csproj",
         "projectName": "ASP.NET Registration",
-        "projectPath": "C:\\Users\\hasan\\source\\repos\\ASP.NET Registration\\ASP.NET Registration\\ASP.NET Registration.csproj",
+        "projectPath": "C:\\Users\\hasan\\source\\repos\\ASP.NET-Registration\\ASP.NET Registration\\ASP.NET Registration.csproj",
         "packagesPath": "C:\\Users\\hasan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hasan\\source\\repos\\ASP.NET Registration\\ASP.NET Registration\\obj\\",
+        "outputPath": "C:\\Users\\hasan\\source\\repos\\ASP.NET-Registration\\ASP.NET Registration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\hasan\\source\\repos\\ASP.NET-Registration\\Registration.DataAccsess\\Registration.DataAccsess.csproj": {
+                "projectPath": "C:\\Users\\hasan\\source\\repos\\ASP.NET-Registration\\Registration.DataAccsess\\Registration.DataAccsess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.29, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hasan\\source\\repos\\ASP.NET-Registration\\Registration.DataAccsess\\Registration.DataAccsess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hasan\\source\\repos\\ASP.NET-Registration\\Registration.DataAccsess\\Registration.DataAccsess.csproj",
+        "projectName": "Registration.DataAccsess",
+        "projectPath": "C:\\Users\\hasan\\source\\repos\\ASP.NET-Registration\\Registration.DataAccsess\\Registration.DataAccsess.csproj",
+        "packagesPath": "C:\\Users\\hasan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hasan\\source\\repos\\ASP.NET-Registration\\Registration.DataAccsess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,27 +138,35 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.18, )"
+              "version": "[6.0.29, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.29, )"
             },
             "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
-              "version": "[7.0.18, )"
+              "version": "[6.0.29, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.18, )"
+              "version": "[6.0.29, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.29, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[6.0.1, )"
             },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -86,14 +181,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

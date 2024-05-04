@@ -1,0 +1,15 @@
+C:\Users\hasan\source\repos\ASP.NET-Registration\Registration.DataAccsess\obj\Debug\net6.0\Registration.DataAccsess.csproj.AssemblyReference.cache
+C:\Users\hasan\source\repos\ASP.NET-Registration\Registration.DataAccsess\obj\Debug\net6.0\Registration.DataAccsess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\source\repos\ASP.NET-Registration\Registration.DataAccsess\obj\Debug\net6.0\Registration.DataAccsess.AssemblyInfoInputs.cache
+C:\Users\hasan\source\repos\ASP.NET-Registration\Registration.DataAccsess\obj\Debug\net6.0\Registration.DataAccsess.AssemblyInfo.cs
+C:\Users\hasan\source\repos\ASP.NET-Registration\Registration.DataAccsess\obj\Debug\net6.0\Registration.DataAccsess.csproj.CoreCompileInputs.cache
+C:\Users\hasan\source\repos\ASP.NET-Registration\Registration.DataAccsess\obj\Debug\net6.0\Registration.DataAccsess.sourcelink.json
+C:\Users\hasan\source\repos\ASP.NET-Registration\Registration.DataAccsess\bin\Debug\net6.0\Registration.DataAccsess.deps.json
+C:\Users\hasan\source\repos\ASP.NET-Registration\Registration.DataAccsess\bin\Debug\net6.0\Registration.DataAccsess.runtimeconfig.json
+C:\Users\hasan\source\repos\ASP.NET-Registration\Registration.DataAccsess\bin\Debug\net6.0\Registration.DataAccsess.dll
+C:\Users\hasan\source\repos\ASP.NET-Registration\Registration.DataAccsess\bin\Debug\net6.0\Registration.DataAccsess.pdb
+C:\Users\hasan\source\repos\ASP.NET-Registration\Registration.DataAccsess\obj\Debug\net6.0\Registration.DataAccsess.dll
+C:\Users\hasan\source\repos\ASP.NET-Registration\Registration.DataAccsess\obj\Debug\net6.0\refint\Registration.DataAccsess.dll
+C:\Users\hasan\source\repos\ASP.NET-Registration\Registration.DataAccsess\obj\Debug\net6.0\Registration.DataAccsess.pdb
+C:\Users\hasan\source\repos\ASP.NET-Registration\Registration.DataAccsess\obj\Debug\net6.0\Registration.DataAccsess.genruntimeconfig.cache
+C:\Users\hasan\source\repos\ASP.NET-Registration\Registration.DataAccsess\obj\Debug\net6.0\ref\Registration.DataAccsess.dll
