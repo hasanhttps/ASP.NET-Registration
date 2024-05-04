@@ -2,22 +2,25 @@
 
 <div class="login-container">
 
-    <form class="login">
+    <form class="login"asp-action="Login">
         <div class="header-content">
             <p class="p1">LOGIN</p>
-            <p class="p2">How to i get started lorem ipsum dolor at?</p>
+            <p class="p2">How to i get started?</p>
         </div>
 
         <section class="login-fields">
             <input class="username-field" type="text" placeholder="Username" asp-for="Username" />
             <span asp-validation-for="Username" class="text-danger"></span>
 
-            <input class="password-field" type="password" placeholder="Password" />
+            <input class="password-field" type="password" placeholder="Password" asp-for="Password" />
+            <span asp-validation-for="Password" class="text-danger"></span>
         </section>
 
         <button class="loginnow-bt" type="submit">
             Login Now
         </button>
+
+        <p>You don't have an account? <a href="User/Register">Register</a></p>
 
     </form>
 

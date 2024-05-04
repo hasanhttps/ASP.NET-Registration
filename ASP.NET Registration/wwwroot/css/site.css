@@ -87,7 +87,7 @@ main{
     flex-direction: column;
 }
 
-.login-container .login .login-fields input{
+.login-container .login .login-fields input {
     width: 364px;
     height: 52px;
     border: none;
@@ -99,19 +99,97 @@ main{
     border-radius: 16px;
     background-position-x: 6%;
     background-position-y: 12px;
-    background-color: #F0EDFF;
+    background-color: #F0EDFF !important;
     background-repeat: no-repeat;
 }
 
 .login-container .login .login-fields .username-field{
-    background-image: url('../assets/images/userprofile.svg');
+    background-image: url('../assets/images/userprofile.svg') !important;
 }
 
-.login-container .login .login-fields .password-field{
-    background-image: url('../assets/images/lock.svg');
+.login-container .login .login-fields .password-field {
+    background-image: url('../assets/images/lock.svg') !important;
 }
 
 .login-container .login .loginnow-bt{
+    width: 124px;
+    height: 52px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 16px;
+    background-color: #5038ED;
+}
+
+.register-container {
+    display: flex;
+    width: 1366px;
+    height: 768px;
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.register-container .register {
+    gap: 24px;
+    width: 683px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+.register-container .register .header-content {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.register-container .register .header-content .p1 {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 21px;
+}
+
+.register-container .register .header-content .p2 {
+    font-size: 16px;
+    color: #525252;
+}
+
+.register-container img {
+    width: 683px;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+.register-container .register .register-fields {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.register-container .register .register-fields input {
+    width: 364px;
+    height: 52px;
+    border: none;
+    outline: none;
+    padding: 14px;
+    color: black;
+    font-size: 12px;
+    padding-left: 20px;
+    border-radius: 16px;
+    background-position-x: 6%;
+    background-position-y: 12px;
+    background-color: #F0EDFF;
+    background-repeat: no-repeat;
+}
+
+.register-container .register .registernow-bt {
     width: 124px;
     height: 52px;
     border: none;

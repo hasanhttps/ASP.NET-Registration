@@ -1,0 +1,40 @@
+﻿@model User
+
+<div class="register-container">
+
+    <img height="768" src="~/assets/images/registration-right.png" />
+
+    <form class="register" asp-action="Register">
+        <div class="header-content">
+            <p class="p1">Register</p>
+            <p class="p2">How to i get started?</p>
+        </div>
+
+        <section class="register-fields">
+            <input class="name-field" type="text" placeholder="Name" asp-for="Name" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+
+            <input class="surname-field" type="text" placeholder="Surname" asp-for="Surname" />
+            <span asp-validation-for="Surname" class="text-danger"></span>
+
+            <input class="age-field" type="number" placeholder="Age" asp-for="Age" />
+            <span asp-validation-for="Age" class="text-danger"></span>
+
+            <input class="email-field" type="email" placeholder="Email" asp-for="Email" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+
+            <input class="username-field" type="text" placeholder="Username" asp-for="Username" />
+            <span asp-validation-for="Username" class="text-danger"></span>
+
+            <input class="password-field" type="password" placeholder="Password" asp-for="Password" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+
+        </section>
+
+        <button class="registernow-bt" type="submit">
+            Register Now
+        </button>
+
+    </form>
+
+</div>

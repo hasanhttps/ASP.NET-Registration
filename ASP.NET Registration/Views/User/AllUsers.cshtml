@@ -1,7 +1,17 @@
 ﻿@model AllUsersViewModel
 
-@foreach(var user in Model.Users) {
-    <div class="user">
-        <p>@user.Name</p>
-    </div>
-}
+
+<div class="users d-flex flex-column">
+    @foreach(var user in Model.Users) {
+        <div class="user">
+
+            <p>Name: @user.Name</p>
+            <p>Surname: @user.Surname</p>
+            <p>Age: @user.Age</p>
+            <p>Email: @user.Email</p>
+            <p>Username: @user.Username</p>
+
+            <br/>
+        </div>
+    }
+</div>
